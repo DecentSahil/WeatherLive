@@ -1,0 +1,66 @@
+body {
+    background-color: #2C3E50; /* Darker background for contrast */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Weather-main {
+    border: 2px solid #34495E; /* Subtle border color */
+    padding: 20px;
+    background-color: #ECF0F1; /* Light background for better readability */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35vw;
+    height: 60vh;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.weather-temp, .weather-cond {
+    font-size: 28px;
+    color: #2980B9; /* A soothing blue for the text */
+    margin: 10px 0;
+}
+
+span {
+    color: #C0392B; /* A warm red for highlighted text */
+}
+
+input {
+    height: 45px;
+    width: 250px;
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #BDC3C7; /* Neutral border */
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #2980B9; /* Change border color on focus */
+    outline: none; /* Remove outline */
+}
+
+button {
+    height: 45px;
+    width: 130px;
+    font-size: 20px;
+    color: #FFFFFF; /* White text for contrast */
+    background-color: #3498DB; /* A vibrant blue for the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #2980B9; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+button:active {
+    transform: scale(0.95); /* Slight shrink effect when clicked */
+}
